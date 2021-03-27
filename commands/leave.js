@@ -4,7 +4,7 @@ const sendError = require("../util/error");
 module.exports = {
     info: {
         name: "leave",
-        aliases: ["goaway", "disconnect"],
+        aliases: ["dc", "disconnect"],
         description: "Leave The Voice Channel!",
         usage: "Leave",
     },
