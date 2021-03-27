@@ -115,7 +115,7 @@ module.exports = {
             const queue = message.client.queue.get(message.guild.id);
             if (!song) {
                 sendError(
-                    "Leaving the voice channel because I think there are no songs in the queue. \n\n BY Naman For BFA Family!\n\n",
+                    "Leaving the voice channel because I think there are no songs in the queue./n/n -**BFA OFFICIAL BOT**",
                     message.channel
                 );
                 message.guild.me.voice.channel.leave(); //If you want your bot stay in vc 24/7 remove this line :D
