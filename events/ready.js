@@ -2,7 +2,7 @@ const activities_list = [
     "QUERY", 
     "SUGGESTIONS",
     "COMPLAINS", 
-    "MUSIC"
+    "MUSIC",
     "BFA"
     ];
 
